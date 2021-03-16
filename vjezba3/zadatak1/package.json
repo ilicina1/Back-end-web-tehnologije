@@ -1,0 +1,18 @@
+{
+  "name": "zadatak1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zadatak1.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "chai-sorted": "^0.2.0"
+  }
+}

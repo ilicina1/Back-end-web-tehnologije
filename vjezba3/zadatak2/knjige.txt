@@ -1,0 +1,2 @@
+naslov,cijena,tip,ocjena
+blablaNoviNaslov,33,meki uvez,4.16

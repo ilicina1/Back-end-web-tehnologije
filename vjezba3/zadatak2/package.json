@@ -1,0 +1,19 @@
+{
+  "name": "zadatak2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "knjige.js",
+  "scripts": {
+    "test": "Mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "objects-to-csv": "^1.3.6"
+  }
+}
