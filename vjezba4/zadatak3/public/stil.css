@@ -1,0 +1,11 @@
+.okvir{
+    border: 1px solid black;
+    height: 1000px;
+    width: 100%;
+}
+
+.naziviStranica{
+    border-bottom: 1px solid black;
+    height: 100px;
+    width: 100%;
+}
