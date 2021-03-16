@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Studenti</title>
+    <meta name="description" content="Studenti" />
+    <meta name="ilhan" content="Studenti" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+    <script src="dodajStudentaAjax.js"></script>
+    <script src="pozoviAjax.js"></script>
+  </head>
+
+  <body>
+    <form>
+      <label for="unesiStudente">Unesi studente u csv formatu:</label>
+      <br />
+      <br />
+      <textarea id="unesiStudente" name="unesiStudente"> </textarea>
+      <br />
+      <label for="cars">Izaberi grupu:</label>
+      <br />
+      <br />
+      <select name="grupe" id="grupe">
+        <option value="WTgrupa1">WTgrupa1</option>
+        <option value="WTgrupa2">WTgrupa2</option>
+        <option value="RMAgrupa1">RMAgrupa1</option>
+        <option value="RMAgrupa2">RMAgrupa2</option>
+      </select>
+      <br />
+      <br />
+      <input id="button" type="submit" value="Posalji" />
+    </form>
+  </body>
+</html>

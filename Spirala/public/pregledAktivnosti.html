@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Spirala 2</title>
+    <meta name="description" content="Spirala 3" />
+    <meta name="ilhan" content="Spirala 3" />
+    <link rel="stylesheet" href="pregledAktivnosti.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+    <script src="ajaxSortiranje.js"></script>
+    <script src="pregledAktivnosti.js"></script>
+  </head>
+
+  <body>
+<div id="pom"></div>
+    <div id="tableDiv">
+        <table>
+            <thead>
+                <tr>
+                    <th id="nazivPredmeta" class="asc">
+                        Naziv
+                    </th>
+                    <th id="aktivnost" class="asc">
+                        Aktivnost
+                    </th>
+                    <th id="dan" class="asc">
+                        Dan
+                    </th>
+                    <th id="vrijemePocetka" class="asc">
+                        Vrijeme pocetka
+                    </th>
+                    <th id="vrijemeKraja" class="asc">
+                        Vrijeme kraja
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="bodyTable">
+
+            </tbody>
+        </table>
+    </div>
+
+    <label for="dani">Izaberi dan: </label>
+    <select name="dani" id="daniSedmica" onchange="funkcija()">
+        <option value="sviDani">Svi dani</option>
+        <option value="ponedjeljak">Ponedjeljak</option>
+        <option value="utorak">Utorak</option>
+        <option value="srijeda">Srijeda</option>
+        <option value="cetvrtak">Cetvrtak</option>
+        <option value="petak">Petak</option>
+        <option value="subota">Subota</option>
+        <option value="nedjelja">Nedjelja</option>
+    </select>
+
+  </body>
+
+</html>
