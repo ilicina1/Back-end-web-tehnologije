@@ -1,0 +1,36 @@
+.user-detail {
+ height: 100vh;
+ border: 2px solid #f1f1f1; 
+ padding: 16px; 
+ background-color: white; 
+ width: 30%;
+} 
+input{ 
+ width: 100%; 
+ padding: 15px;
+ margin: 5px 0 22px 0; 
+ display: inline-block; 
+ border: none; 
+ background: #f1f1f1;
+} 
+input[type=text]:focus, input[type=password]:focus { 
+ background-color: #ddd;
+ outline: none;
+} 
+button[type=submit] { 
+ background-color: #434140; 
+ color: #ffffff; 
+ padding: 10px 20px; 
+ margin: 8px 0; 
+ border: none; 
+ cursor: pointer; 
+ width: 100%; 
+ opacity: 0.9; 
+ font-size: 20px;
+} 
+label{ 
+ font-size: 18px;
+} 
+button[type=submit]:hover { 
+ background-color:#3d3c3c;
+} 
